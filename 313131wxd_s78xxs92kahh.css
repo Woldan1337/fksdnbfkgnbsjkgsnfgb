@@ -762,3 +762,21 @@ div[class*="footerSeparator"] {
 li[class^="card-"]>div[class^="container-"] {
     background: var(--background-floating)
 }
+
+/* Buton yazı renklerini siyah yap */
+button {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* Tüm buton çeşitleri için */
+button[class*="button-"],
+.bd-button {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* Hover durumlarında da siyah kalsın */
+button:hover,
+button[class*="button-"]:hover,
+.bd-button:hover {
+    color: rgb(0, 0, 0) !important;
+}
